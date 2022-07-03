@@ -18,12 +18,12 @@
         remove.style.borderRight = "2px solid #1e1d1d"
         // Notes Styles
         append_Style=document.getElementById('myAppendListItems')
-        append_Style.style.listStyleType = "none"
+        // append_Style.style.listStyleType = "none"
         append_Style.style.color = "Blue"
         append_Style.style.fontSize = "20px"
         // add items 
         function Append() {
-            const node = document.createElement("h3")
+            const node = document.createElement("li")
             const textNode = document.createTextNode(prompt("Enter your Text Here"))
             node.appendChild(textNode)
             document.getElementById('myAppendListItems').appendChild(node)
