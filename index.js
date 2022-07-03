@@ -23,7 +23,7 @@
         append_Style.style.fontSize = "20px"
         // add items 
         function Append() {
-            const node = document.createElement("h1")
+            const node = document.createElement("h3")
             const textNode = document.createTextNode(prompt("Enter your Text Here"))
             node.appendChild(textNode)
             document.getElementById('myAppendListItems').appendChild(node)
